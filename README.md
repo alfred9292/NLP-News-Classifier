@@ -12,4 +12,4 @@ exp3.py: N-gram specification, combine title and content as feature vector for t
 
 exp4.py: Normalization and Weighting, stop word list implemented
 
-exp5.py: Syntax and Stylometry, use spaCY to find named entity. intead of using title or content, the experiment only considers named entity for classification.\
+exp5.py: Syntax and Stylometry, use spaCY to find named entity. intead of using title or content, the experiment only considers named entity for classification.
