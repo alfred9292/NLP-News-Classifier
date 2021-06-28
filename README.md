@@ -1,5 +1,13 @@
 # NLP-News-Classifier
 
+Libraries needed to run the code: 
+        
+-Pandas
+-Sklearn
+-SpaCY
+
+Please make sure you have Python Version 3.3 or higher run the code on PyCharm.
+
 NLP Logistic Regression Implementation to classify news into 10 categories.
 
 exp0.py: baseline system, only aplly bag-of-words, no further feature extraction performed, use a sparse representation of a feature vector.
