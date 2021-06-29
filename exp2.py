@@ -12,7 +12,7 @@ vectorizer = CountVectorizer()
 #please change the path of file here#
 df = pd.read_csv("/Users/alfred/PycharmProjects/nlp/topic.csv",delimiter=',', skiprows=1, header=None)
 
-#split the data into training set and test set, intend to divide all dataset to training set to faciliate the 10 kold cross validation at later stage#
+#only trains the title of news, split the data into training set and test set, intend to divide all dataset to training set to faciliate the 10 kold cross validation at later stage#
 X_train_raw,X_test_raw,y_train,y_test = train_test_split(df[2],df[0],test_size=0,random_state=0)
 print("train:",len(X_train_raw),"test:",len(X_test_raw))
 
