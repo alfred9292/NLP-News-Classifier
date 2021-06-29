@@ -17,6 +17,7 @@ df = pd.read_csv("/Users/alfred/PycharmProjects/nlp/topic.csv",delimiter=',', he
 nlp = spacy.load('en')
 df['spacy']=''
 
+# find named entity such as person, organization,event, facility or art of work and extract the result as the feature for training.
 for i in range(0,2283):
         data1= df.loc[i][3].strip().split(',')
         #print(data1)
