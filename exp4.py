@@ -7,6 +7,7 @@ from sklearn.model_selection import cross_validate,cross_val_predict
 
 count = 0
 
+#stop word list implemented
 vectorizer = CountVectorizer(stop_words='english')
 
 #please change the path of file here#
