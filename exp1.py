@@ -7,6 +7,7 @@ from sklearn.model_selection import cross_validate,cross_val_predict
 
 count = 0
 
+# TF-IDF weighting methodology used instead of bag-of-words
 vectorizer = TfidfVectorizer(min_df=1)
 
 #please change the path of file here#
