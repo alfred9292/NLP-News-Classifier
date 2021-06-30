@@ -1,5 +1,9 @@
 # NLP-News-Classifier
 
+Python Version : 3.3 or higher
+
+Development Environment : PyCharm
+
 Libraries needed to run the code: 
         
 -Pandas
