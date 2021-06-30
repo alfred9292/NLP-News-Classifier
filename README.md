@@ -3,7 +3,9 @@
 Libraries needed to run the code: 
         
 -Pandas
+
 -Sklearn
+
 -SpaCY
 
 Please make sure you have Python Version 3.3 or higher run the code on PyCharm.
